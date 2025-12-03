@@ -596,6 +596,13 @@ ServerEvents.recipes(event => {
     .duration(100)
     .EUt(GTValues.VA[GTValues.LV]);
 
+  event.recipes.gtceu.bender('frontiers:bender/caminite_plate')
+    .itemInputs('embers:caminite_brick')
+    .circuit(1)
+    .itemOutputs('embers:caminite_plate')
+    .EUt(GTValues.VA[GTValues.ULV])
+    .duration(140)
+
 
 
 
